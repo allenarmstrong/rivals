@@ -1,0 +1,42 @@
+<div class="content main">
+    <div ng-show="playerWins == true && playerTied == false">
+      <h1 class="center">GREAT JOB!</h1>
+      <p class="padding-left padding-right padding-bottom center">
+          You beat <strong>{{globals.playerBName}}</strong> in Rivals competitive learning!
+      </p>
+    </div>
+    <div ng-show="playerWins == false && playerTied == false">
+        <h1 class="center">TOUGH LOSS!</h1>
+      <p class="padding-left padding-right padding-bottom center">
+          You lost this time to <strong>{{globals.playerBName}}</strong> in Rivals competitive learning but you can always <a ng-href="https://reinvnetion.flvs.net/social_learning/battle/">try again</a>!
+      </p>
+    </div>
+    <div ng-show="playerTied == true">
+        <h1 class="center">YOU TIED!</h1>
+      <p class="padding-left padding-right padding-bottom center">
+          You tied this time to <strong>{{globals.playerBName}}</strong> in Rivals competitive learning you can always <a ng-href="https://reinvnetion.flvs.net/social_learning/battle/">try again</a>!
+      </p>
+    </div>
+
+      <div class="padding-left padding-right padding-bottom">
+        <div class="player">
+          {{globals.playerAName}} <span class="small">(YOU)</span> <span class="right total">{{globals.playerPoints}} PTS</span>
+        </div>
+        <div class="player">
+          {{globals.playerBName}} &nbsp; <span class="right total">{{globals.opponentPoints}} PTS</span>
+        </div>
+
+    </div>
+
+
+    <br class="clear"/>
+    <div class="center">
+      <hr/>
+
+        <a class="button big" href="index.html" target="_self">PLAY AGAIN</a>
+      <!--<p class="padding-bottom">-->
+        <!--Thank you for playing RIVALS! We'd like to learn about your experience. Please take our survey, it should only take a few moments.-->
+      <!--</p>-->
+      <!--<a ng-href="https://docs.google.com/forms/d/1hZ7dS4m7GEC69oWQCkB-14I_LdBv1-IrEb6ihi2rlkg/viewform?c=0&w=1&usp=send_form" class="button big">TAKE THE SURVEY</a>-->
+    </div>
+</div>

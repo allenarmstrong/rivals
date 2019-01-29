@@ -1,0 +1,263 @@
+/*
+font-family: 'Oxygen', sans-serif;
+font-family: 'Patua One', cursive;
+*/
+
+body{
+  background-color:#383838;
+  font-weight:100;
+  font-family: 'Oxygen', sans-serif;
+  color:#515151;
+  line-height:24px;
+  font-size:16px;
+  /*background-image:url('../img/footer_lodyas.png');*/
+}
+
+/* LAYOUT --------------------------------------------- */
+.container{
+  width:700px;
+  margin:0 auto;
+  background-color:#f2f2f2;
+  min-height:795px;
+  position:relative;
+}
+    .content{
+        padding:20px;
+        position:relative;
+    }
+
+    .head-bar{
+        background-color:#1d1d1d;
+        padding:10px;
+    }
+
+/* STANDARD ELEMENTS --------------------------------------------- */
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Patua One', cursive;
+  font-weight:100;
+  margin:0px;
+  padding:0px;
+  margin-bottom:20px;
+}
+
+ul,ol{
+  margin:0px;
+  padding-left:20px;
+}
+  li{
+    padding:2px;
+  }
+
+a{
+  cursor:pointer;
+  text-decoration:none;
+}
+
+hr{
+  border:none;
+  height:1px;
+  padding:0px;
+  margin:0px;
+  width:700px;
+  margin-left:-20px;
+  margin-bottom:30px;
+  margin-top:30px;
+  border-top:solid 1px #cccccc;
+}
+
+p{
+  margin:0px;
+  padding:0px;
+  margin-bottom:20px;
+}
+
+/* CUSTOM ELEMENTS --------------------------------------------- */
+
+h1.title{
+  text-align:center;
+  color:#ffffff;
+  font-size:22px;
+  padding:0px;
+  margin:0px;
+}
+.center{
+  text-align:center;
+}
+.large-margin-top{
+  margin-top:20px;
+}
+.large-margin-bottom{
+  margin-bottom:20px;
+}
+.padding{padding:20px}.padding-top{padding-top:20px}.padding-right{padding-right:20px}.padding-bottom{padding-bottom:20px}.padding-left{padding-left:20px}
+
+
+  a.button{
+    background-color:#fb9621;
+    border-radius:8px;
+    color:#ffffff;
+    padding:5px 10px;
+    font-weight:100;
+    font-family: 'Patua One', cursive;
+    border-bottom:solid 5px #f26724;
+    margin-top:5px;
+  }
+  a.button.big{
+    font-size:20px;
+    padding:15px 25px;
+  }
+
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+
+.small{
+  font-size:12px;
+}
+.underscore {text-decoration: underline;}
+
+.blank {font-family: sans-serif;}
+
+/* SCREENS --------------------------------------------- */
+.content.main .left{
+  width:66%;
+}
+.content.main .right{
+  width:33%;
+}
+  .content.main .right h2{
+    padding:5px;
+    margin:0px;
+    margin-bottom:2px;
+    font-size:16px;
+    font-weight:100;
+    text-align:center;
+  }
+
+  .vs{
+    background-color:#f2f2f2;
+    font-family: 'Patua One', cursive;
+    border-radius:60px;
+    text-align:center;
+    margin:0 auto;
+    width:26px;
+  }
+  .player{
+    background-color:#e8e8e8;
+    padding:5px 10px;
+    margin-bottom:2px;
+    font-weight:bold;
+  }
+
+  .player.me{
+    background-color:#b7e4f4;
+  }
+
+  .player .empty{
+    font-size:14px;
+    color:#7a7a7a;
+  }
+
+.questionScreen .question{
+   font-family: 'Patua One', cursive;
+   font-size:20px;
+   margin-bottom:20px;
+}
+  .questionScreen label{
+    margin-left:5px;
+  }
+  .questionScreen .worth{
+      font-size:18px;
+      font-family: 'Patua One', cursive;
+      color:#2cace3;
+      position:absolute;
+      right:20px;
+      top:20px;
+  }
+
+.questionResult{
+    background-color:#ffffff;
+    width:500px;
+    padding:20px;
+    position:absolute;
+    left:80px;
+    top:0px;
+    z-index:1000;
+}
+  .questionResult .total{
+    color:#2cace3;
+  }
+  .questionResult hr{
+    width:540px;
+  }
+
+  .questionResult input{
+    width:480px;
+    padding:10px;
+    border-radius:2px;
+    background-color:#f2f2f2;
+    border:solid 1px #ccc;
+
+  }
+
+  .questionResult .opponent-speech{
+    background-color:#e8e8e8;
+    padding:10px 15px;
+    border-radius:15px;
+    margin-bottom:15px;
+  }
+
+/* SUB OBJECTS --------------------------------------------- */
+.alert-finding{
+  width:300px;
+  background-color:#ffffff;
+  padding:20px;
+  position:absolute;
+  top:0px;
+  left:170px;
+  z-index:1000;
+  text-align:center;
+  -webkit-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.75);
+  font-weight:bold;
+}
+  .alert-finding .small{
+    font-weight:normal;
+    font-size:12px;
+  }
+.overlay{
+  background-color:rgba(0,0,0,.75);
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  z-index:999;
+}
+
+/* CONTENT SPECIFIC CSS -- */
+.pic {text-align: center; font-family: 'Oxygen', sans-serif; padding: 3px 5px;}
+.pic .caption {    font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  display: block;}
+.pic .copyright {
+  font-size: 10px;
+  line-height: 10px;
+  margin-top: 2px;
+  text-align: center;
+  display: block;
+}
+.largePlayBtn {display: none !important;}
+ol .small{
+  font-weight:normal;
+  font-size:12px;
+}

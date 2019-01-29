@@ -1,0 +1,81 @@
+<div class="questionResult" ng-show="results == true">
+
+      <h2 class="center">RESULTS</h2>
+      <p class="center">
+          <span ng-show="playerCorrect == true && globals.pointsEarned == thisBattle.pointsWorth">
+              Great Job! You got that one right.
+          </span>
+          <span ng-show="playerCorrect == true && globals.pointsEarned < thisBattle.pointsWorth">
+              Mostly correct! For full points you should have answered {{thisBattle.answers[0]}}.
+          </span>
+          <span ng-show="playerCorrect == false">
+              Nice try. Not this time.<BR>The correct answer was {{thisBattle.answers[0]}}.
+          </span>
+      </p>
+      <div class="player" ng-show="playerCorrect == true">
+        {{globals.playerAName}} <span class="small">(YOU)</span> <span class="right total">{{globals.playerPoints}} PTS</span><span class="right padding-right">+{{globals.pointsEarned}} PTS</span> <span class="padding-right right small">CORRECT!</span>
+      </div>
+      <div class="player" ng-show="playerCorrect == false">
+        {{globals.playerAName}} <span class="small">(YOU)</span> <span class="right total">{{globals.playerPoints}} PTS</span><span class="padding-right right small">INCORRECT...</span>
+      </div>
+
+
+      <div class="player" ng-show="opponentHasAnswer == false">
+        {{globals.playerBName}} &nbsp; <span class="right">Waiting on answer...</span>
+      </div>
+      <div class="player" ng-show="opponentHasAnswer == true && opponentCorrect == true">
+        {{globals.playerBName}}&nbsp; <span class="right total">{{globals.opponentPoints}} PTS</span><span class="right padding-right">+{{globals.pointsEarned}} PTS</span> <span class="padding-right right small">CORRECT!</span>
+      </div>
+      <div class="player" ng-show="opponentHasAnswer == true && opponentCorrect == false">
+        {{globals.playerBName}}&nbsp; <span class="right total">{{globals.opponentPoints}} PTS</span> <span class="padding-right right small">INCORRECT...</span>
+      </div>
+
+
+      <hr/>
+      <h3 class="center">SEND A COMMENT WHILE YOU WAIT</h3>
+
+      <div class="opponent-speech"  ng-show="showOpponentText == false && opponentHasAnswer==true">
+        <strong>{{globals.playerBName}}:</strong> <img src="img/chatloading.gif" width="24"/>
+      </div>
+
+      <div class="opponent-speech"  ng-show="showOpponentText == true">
+        <strong>{{globals.playerBName}}:</strong> {{opponentSays }}
+      </div>
+
+      <input type="text" placeholder="Say something to your rival..." ng-model="convo.player"/>
+      <div class="center padding-top" style="margin-top:30px; margin-bottom:30px;">
+
+        <a class="button big" ng-show="opponentHasAnswer == true && isLastQuestion == true" ng-click="nextQuestion()">FINISH</a>
+      <a class="button big" ng-show="opponentHasAnswer == true && isLastQuestion == false" ng-click="nextQuestion()">NEXT QUESTION</a>
+      <p class="big" ng-show="opponentHasAnswer == false">WAITING FOR OPPONENT...</p>
+      </div>
+</div>
+<div class="overlay" ng-show="results == true"></div>
+
+<!-- BATTLE CONTENT & QUESTION -->
+
+ <div class="content questionScreen">
+      <h3>Battle {{questionNum}} of {{questionsTotal}}</h3>
+       <div class="worth">{{thisBattle.pointsWorth}} PTS.</div>
+       <div ng-bind-html="content">
+
+       </div>
+      <hr/>
+
+     <div class="question">
+        <p ng-bind-html="thisBattle.question"></p>
+     </div>
+      <div class="answers padding-bottom">
+          <div ng-repeat="option in thisBattle.options" ng-show="thisBattle.questionType == 'MC'" >
+            <input id="{{option}}" ng-model="answer.userAnswer" type="radio" name="answer" value="{{option}}"/> <label for="{{option}}">{{option}}</label><br/>
+          </div>
+          <div ng-show="thisBattle.questionType == 'FIB'" >
+            
+            <input ng-model="answer.userAnswer" type="text" name="answer">
+          </div>
+      </div>
+
+      <div class="padding-top center">
+        <a class="button big padding-top" ng-click="showResults()">SUBMIT!</a>
+      </div>
+ </div>

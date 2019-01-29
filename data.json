@@ -1,0 +1,92 @@
+{
+  "content":[
+      {
+          "questionType": "MC",
+          "pointsWorth":100,
+          "content":"<h3>Escucha el audio y escoge la mejor respuesta. Listen to the audio and choose the best response.</h3><div class='pic right'><img src='img/slide_01.png' alt='Children eating sweet milk rice and deep-fried dough, India'/><span class='copyright'>Public Domain</span></div><iframe id='kaltura_player_01' src='http://www.kaltura.com/p/2061901/sp/206190100/embedIframeJs/uiconf_id/36511471/partner_id/2061901?iframeembed=true&playerId=kaltura_player_01&entry_id=1_etpcnsld' width='300' height='100' allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder='0'></iframe><p>Según el audio, ¿cuáles son las consecuencias de la malnutrición? </p>",
+          "question":"Las consecuencias de la malnutrición son <span class='blank'>________</span>.",
+          "options":["algunos altos costos médicos","el desarrollo de enfermedades prevenibles","la falta de alimentos y bebidas nutritivas","la falta de guías nutritivas por parte del gobierno"],
+          "answers":["el desarrollo de enfermedades prevenibles"]
+      },
+      {
+          "questionType": "FIB",
+          "exactMatch": "true",
+          "pointsWorth":100,
+          "content":"<h3>Lee y escribe la forma correcta de los verbos. Read the selection and write the correct form of the verbs.</h3><p>You may copy and paste the accented and special characters from this list if needed: Á,á, É,é, Í,í, Ó,ó, Ú, ú,ü, Ñ,ñ,¡,¿ </p><div class='pic right'><img src='img/slide_02_ts.png' alt='assorted junk food.'/></div><p>Hoy en día, la obesidad se ha convertido en una crisis global. La mayoría de los países desarrollados está enfrentando un aumento de las enfermedades asociadas con la obesidad. Lo peor es el efecto en los niños. Hoy más que nunca, la esperanza de vida de los niños es más corta que la de sus padres, en gran parte por la obesidad. Por eso, hay varias sugerencias para controlar la situación.  Es recomendable que los niños <span class='blank'>________</span>(hacer) ejercicio cada día y que coman más vegetales. </p>",
+          "question":"",
+          "options":["hagan", "1. D, 2. C, 3. B, 4. A", "1. D, 2. B, 3 .C, 4. A", "1 .D, 2. A, 3. C, 4. B"],
+          "answers":["hagan"]
+      },
+      {
+          "questionType": "FIB",
+          "exactMatch": "true",
+          "pointsWorth":100,
+          "content":"<h3>Lee y escribe la mejor respuesta. Read the selection and write the best answer.</h3><p>You may copy and paste the accented and special characters from this list if needed: Á,á, É,é, Í,í, Ó,ó, Ú, ú,ü, Ñ,ñ,¡,¿ </p><div class='pic right'><img src='img/slide_03_ts.png' alt='3D rendering of human brain on technology background'/></div><p>Nuestro mundo está cambiando. Cada día, hay algunas enfermedades que amenazan la salud de la población. Junto con las enfermedades contagiosas, las enfermedades degenerativas y mentales siguen en aumento. Por suerte, hay varios países trabajando para eliminar el estigma asociado con la enfermedad mental.</p>",
+          "question":"¿Qué país europeo es considerado como un líder en el tratamiento de la salud mental?  El país europeo considerado como un líder es <span class='blank'>________</span>.",
+          "options":["Alemania","1.sea  2.saque  3.comiencen  4.pueda","1.sean  2.saques  3.comienzan  4.pueden","1.son  2.saca  3.comiencen  4.pueda"],
+          "answers":["Alemania"]
+      },
+      {
+          "questionType": "MC",
+          "pointsWorth":100,
+          "content":"<h3>Escoge la forma correcta de los verbos. Choose the correct form of the verbs.</h3><div class='pic right'><img src='img/slide_04_ts.png' alt='Doctor holding a stethoscope to a toddler’s chest'/></div><p>Hola Señora Rivera,<BR><BR>Espero que usted <span class='blank'>________</span>(estar) bien. Qué lástima que usted <span class='blank'>________</span>(tener) problemas con su salud. Para mejorar su salud, le insisto en que usted <span class='blank'>________</span>(dejar) de fumar. También es preferible que usted <span class='blank'>________</span>(ir) al gimnasio semanal para hacer ejercicio. ¡Ya verá que pronto se sentirá mejor!</p>",
+          "question":"",
+          "options":["estés,tengas,dejes,vayas","esté,tenga,deje,vaya", "esté,tenga,deja,vaya", "está,tiene,deja,va"],
+          "answers":["esté,tenga,deje,vaya"]
+      },
+      {
+          "questionType": "FIB",
+          "exactMatch": "true",
+          "pointsWorth":100,
+          "content":"<h3>Lee y completa la frase con la palabra correcta. Read the selection and complete the sentence with the correct word.</h3><p>You may copy and paste the accented and special characters from this list if needed: Á, á, É, é, Í, í, Ó, ó, Ú, ú, ü, Ñ, ñ, ¡, ¿</p><div class='pic right'><img src='img/slide_05_ts.png' alt='Doctor holding a stethoscope to a young girl's chest'/></div><p>En varios sistemas de salud, es recomendable que vayas al médico cada año para un chequeo. Estos chequeos ayudan a detectar cualquier problema antes de que presenten síntomas. Dependiendo del tipo de sistema de salud pública, a veces los chequeos están cubiertos por el gobierno.</p><p>¿Cuál es el sistema de salud pública donde cada persona tiene acceso a servicios médicos? </p>",
+          "question":"El sistema de salud donde cada persona tiene acceso a servicios médicos es la <span class='blank'>________</span> (tres palabras). ",
+          "options":["cobertura sanitaria universal","sabía, puedo, sirve ","sabía, podía, servía","sabe, puede, sirve"],
+          "answers":["cobertura sanitaria universal"]
+      },
+      {
+          "questionType": "MC",
+          "pointsWorth":100,
+          "content":"<h3>Escoge la mejor respuesta. Select the best answer.</h3>",
+          "question":"<div class'pic right'><img src='img/slide_06_ts.png' alt='Güell Park, Barcelona '></div>Este verano yo iré a España de vacaciones <span class='blank'>________</span> <span class='blank'>________</span>(poder) conseguir mi pasaporte. ",
+          "options":["con tal de que, pueda","antes de que, pueda","sin que, puedan","antes de que, puedan"],
+          "answers":["con tal de que, pueda"]
+      },
+      {
+          "questionType": "MC",
+          "pointsWorth":100,
+          "content":"<h3>Escoge la mejor respuesta. Select the best answer.</h3><div class'pic right'><img src='img/slide_07_ts.png' alt='Mother and daughter cooking Thanksgiving dinner.'></div><p>Mi mamá cocina todos los días <span class='blank'>________</span>  <span class='blank'>________</span>(estar) enferma.</p>",
+          "question":"",
+          "options":["a menos que, esté","sin que, estén","antes de, esté","con tal que, estén"],
+          "answers":["a menos que, esté"]
+      },
+      {
+          "questionType": "MC",
+          "pointsWorth":100,
+          "content":"<h3>Escoge la mejor respuesta. Select the best answer.</h3>",
+          "question":"<div class='pic right'><img src='img/slide_08_ts.png' alt='Businessman at desk with paper.'/></div>Una comunicación formal debería incluir <span class='blank'>________</span>.",
+          "options":["varios emojis para mostrar tu entusiasmo y sentimientos","una dirección de correo electrónico chistosa","una despedida apropiada para terminar la carta","varias palabras escritas en letras mayúsculas"],
+          "answers":["una despedida apropiada para terminar la carta"]
+      },
+      {
+          "questionType": "MC",
+          "pointsWorth":100,
+          "content":"<h3>Completa la frase con la forma correcta de los verbos usando el subjuntivo y el condicional. Complete the sentence with the correct form of the verbs in the subjunctive mood and the conditional tense.</h3><div class='pic right'><img src='img/slide_09_ts.png' alt='Plastic grocery bags'/></div><p>Es urgente que nosotros <span class='blank'>________</span>(buscar) algunas soluciones para eliminar las bolsas de plástico. Estas bolsas contribuyen a la contaminación y la destrucción del medio ambiente. Pero primero, nosotros <span class='blank'>________</span>(tener) que encontrar otra solución económica para reemplazar las bolsas de plástico. </p>",
+          "question":"",
+          "options":["buscamos, tendremos","busquemos, tendríamos","buscamos, tendríamos","busquemos, tendremos"],
+          "answers":["busquemos, tendríamos"]
+      },
+      {
+          "questionType": "FIB",
+          "exactMatch": "true",
+          "pointsWorth":100,
+          "content":"<h3>Completa la frase con la forma correcta del imperfecto del subjuntivo. Complete the sentences with the correct form of the imperfect subjunctive.</h3><p>You may copy and paste the accented and special characters from this list if needed: Á, á, É, é, Í, í, Ó, ó, Ú, ú, ü, Ñ, ñ, ¡, ¿</p><div class='pic right'><img src='img/slide_10_ts.png' alt='United Nations Headquarters with waving flags in New York, USA'/></div><iframe id='kaltura_player_01' src='http://www.kaltura.com/p/2061901/sp/206190100/embedIframeJs/uiconf_id/36511471/partner_id/2061901?iframeembed=true&playerId=kaltura_player_01&entry_id=1_etpcnsld' width='300' height='100' allowfullscreen webkitallowfullscreen mozAllowFullScreen frameborder='0'></iframe>",
+          "question":"¿Si tú <span class='blank'>________</span>(tener) la oportunidad de parar alguna violación de los derechos humanos, lo harías? ",
+          "options":["tuvieras","Jennifer López","Selena Quintanilla","Christina Aguilera"],
+          "answers":["tuvieras"]
+      }
+  ],
+    "opponentResponses":{
+        "userIsRight":["¡Buen trabajo! Good job!","Looks like u got lucky. ¡Que suerte!","¡Ay ay ay!  Lucky again!","Alright, are you cheating?","How are you doing this? ¿Cómo lo haces?","¡Estás en fuego! You’re on fire!","¡Guau! ¡Eres un comelibro!","¡Chévere! ¡Estás correcto!","¡Fantástico! You got it!","¡Eres increíble!","¡Impresionante! That’s impressive.","¡Oye! Eres un genio.","¡Dale! Eres un campeón."],
+        "userIsWrong":["¡Buen intento! Good try.", "Nice try, amigo!", "I'm gonna win", "Not this time-Ni lo piensas.", "¿Se te olvidó estudiar? Did you forget to study?","¡Quizás la próxima vez! Sigue intentando.", "¡Qué lástima! Maybe next time!", "¡Voy a ganar! I’m gonna win!", "¡Soy intocable! I am untouchable!","Yo soy campeón.", "Yo soy genio!","¡No te pierdes la cabeza! Keep it in the game!"]
+    }
+}

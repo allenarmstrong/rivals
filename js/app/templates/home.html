@@ -1,0 +1,41 @@
+<alert-finding ng-show="showOverlay == true"></alert-finding>
+
+<div class="content main">
+    <div class="left">
+      <p class="padding-left padding-right padding-bottom">Rivales is a social learning experience where
+        you battle against another student to claim ultimate victory!</p>
+
+      <div class="padding-left padding-right padding-bottom">
+          <h2>Cómo ganar...</h2>
+          <ol>
+              <li>Lee cada pregunta con cuidado.</li>
+              <li>Contesta las preguntas correctamente.</li>
+              <li>Gana más puntos que tu rival.</li>
+          </ol>
+      </div>
+    </div>
+
+    <div class="right">
+        <h2>{{playersOnline}} Player(s) Online</h2>
+        <div class="player me">
+            1. Student{{studentaNumber}} (You)
+        </div>
+        <div class="vs">VS</div>
+        <div class="player">
+            2. {{studentbName}}<span class="empty" ng-show="studentbNumber == null">( EMPTY )</span>
+        </div>
+        <div class="padding center large-margin-top">
+          <a class="button" ng-click="findOpponent()" ng-show="studentbNumber == null">FIND AN OPPONENT!</a>
+
+       </div>
+    </div>
+
+    <br class="clear"/>
+    <div class="center"  ng-show="studentbNumber != null">
+      <hr/>
+      <p class="padding-bottom">
+          Your opponent <strong>{{studentbName}}</strong> is ready. Begin your match now!
+      </p>
+      <a class="button big" ui-sref="Question">START MATCH!</a>
+    </div>
+</div>
